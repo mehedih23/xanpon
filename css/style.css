@@ -1,0 +1,115 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+/*     colors
+    golden #E8BD0D
+                            */
+
+/* common styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #fbf4cf;
+    scroll-behavior: smooth;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: #E8BD0D;
+}
+
+
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+
+.icons a:hover{
+    color: #E8BD0D;
+}
+.nav-item-custom li a{
+    font-weight: bold;
+    color: #E8BD0D;
+}
+
+.nav-item-custom li a:hover{
+    color:#E8BD0D;
+}
+
+header{
+    background-image: url('../images/background-01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+.header-info{
+    text-align: center;
+    position: relative;
+    top:25%;
+}
+
+.header-info button{
+    margin: 20px;
+    padding: 15px 30px;
+}
+.btn-1{
+    background-color: #fbf4cf;
+    color: black;
+    border: 2px solid transparent;
+}
+
+.btn-1:hover{
+    border: 2px solid #fbf4cf;
+    color: #fbf4cf;
+    background-color: transparent;
+    transition: .3s linear;
+}
+
+.btn-2{
+    border: 2px solid #fbf4cf;
+    color: #fbf4cf;
+}
+.btn-2:hover{
+    background-color: #fbf4cf;
+    color: black;
+    transition: .3s linear;
+}
+
+
+#about{
+    background-color: white;
+   
+}
+.about-section{
+    position: relative;
+    top:-100px;
+    background-color: white;
+}
+
+
+#team{
+    background-image: url('../images/background-02.jpg');
+    background-size: cover;
+    background-position: top center;
+    
+}
+
+.contact-section{
+    background-image: url('../images/background-03.jpg');
+    background-size: cover;
+    background-position: top center;
+    
+}
+
+
+
+
+
+
+
